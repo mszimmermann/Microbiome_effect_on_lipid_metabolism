@@ -1,0 +1,13 @@
+Tissue,GF,OMM12,SPF
+Duodenum,200,200,100
+Jejunum,500,500,300
+Ileum,500,500,300
+Colon,150,150,150
+Plasma,2000,2000,2000
+eWAT,5000,5000,5000
+iWAT,5000,5000,5000
+Liver,1000,1000,1000
+Content_duodenum,1,1,1
+Content_jejunum,1,1,1
+Content_ileum,1,1,1
+Content_colon,1,1,1

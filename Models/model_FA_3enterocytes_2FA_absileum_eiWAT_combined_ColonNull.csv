@@ -1,0 +1,183 @@
+Model entity,Name,Description,Units,Fit data,Initial value
+Constant,D,compound dose administered to the mouse,micromole,0,10000
+Constant,F,Bioavailability of the compound,,0,1
+Metabolite,D5FA16_OMM_si,D5-FA16  available for absorption from SI to serum; initial amount calculated as dose D * bioavailability F,micromole,,10000
+Metabolite,D5FA16_OMM_Duodenum,D5-FA16  amount in the duodenum tissue,micromole,,0
+Metabolite,D5FA16_OMM_Jejunum,D5-FA16  amount in the jejunum tissue,micromole,,0
+Metabolite,D5FA16_OMM_Ileum,D5-FA16  amount in the ileum tissue,micromole,,0
+Metabolite,D5FA16_OMM_Plasma,D5-FA16  amount in the serum,micromole,,0
+Metabolite,D5FA16_OMM_Liver,D5-FA16  amount in the liver,micromole,,0
+Metabolite,D5FA16_OMM_Content_duodenum,D5-FA16  amount in the duodenum luminal content,micromole,,0
+Metabolite,D5FA16_OMM_Content_jejunum,D5-FA16  amount in the jejunum luminal content,micromole,,0
+Metabolite,D5FA16_OMM_Content_ileum,D5-FA16  amount in the ileal luminal content,micromole,,0
+Metabolite,D5FA16_OMM_iWAT,D5-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D5FA16_OMM_eWAT,D5-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D5FA16_OMM_Content_colon,D5-FA16  amount in the colon luminal content,micromole,,0
+Metabolite,D5FA16_OMM_Content_cecum,D5-FA16  amount in the cecum luminal content,micromole,,0
+Metabolite,D31FA16_OMM_si,D31-FA16  available for absorption from SI to serum; initial amount calculated as dose D * bioavailability F,micromole,,10000
+Metabolite,D31FA16_OMM_Duodenum,D31-FA16  amount in the duodenum tissue,micromole,,0
+Metabolite,D31FA16_OMM_Jejunum,D31-FA16  amount in the jejunum tissue,micromole,,0
+Metabolite,D31FA16_OMM_Ileum,D31-FA16  amount in the ileum tissue,micromole,,0
+Metabolite,D31FA16_OMM_Plasma,D31-FA16  amount in the serum,micromole,,0
+Metabolite,D31FA16_OMM_Liver,D31-FA16  amount in the liver,micromole,,0
+Metabolite,D31FA16_OMM_Content_duodenum,D31-FA16  amount in the duodenum luminal content,micromole,,0
+Metabolite,D31FA16_OMM_Content_jejunum,D31-FA16  amount in the jejunum luminal content,micromole,,0
+Metabolite,D31FA16_OMM_Content_ileum,D31-FA16  amount in the ileum luminal content,micromole,,0
+Metabolite,D31FA16_OMM_iWAT,D31-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D31FA16_OMM_eWAT,D31-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D31FA16_OMM_Content_colon,D31-FA16  amount in the colon luminal content,micromole,,0
+Metabolite,D31FA16_OMM_Content_cecum,D31-FA16  amount in the cecum luminal content,micromole,,0
+Metabolite,D5FA16_SPF_si,D5-FA16  available for absorption from SI to serum; initial amount calculated as dose D * bioavailability F,micromole,,10000
+Metabolite,D5FA16_SPF_Duodenum,D5-FA16  amount in the duodenum tissue,micromole,,0
+Metabolite,D5FA16_SPF_Jejunum,D5-FA16  amount in the jejunum tissue,micromole,,0
+Metabolite,D5FA16_SPF_Ileum,D5-FA16  amount in the ileum tissue,micromole,,0
+Metabolite,D5FA16_SPF_Plasma,D5-FA16  amount in the serum,micromole,,0
+Metabolite,D5FA16_SPF_Liver,D5-FA16  amount in the liver,micromole,,0
+Metabolite,D5FA16_SPF_Content_duodenum,D5-FA16  amount in the duodenum luminal content,micromole,,0
+Metabolite,D5FA16_SPF_Content_jejunum,D5-FA16  amount in the jejunum luminal content,micromole,,0
+Metabolite,D5FA16_SPF_Content_ileum,D5-FA16  amount in the ileal luminal content,micromole,,0
+Metabolite,D5FA16_SPF_iWAT,D5-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D5FA16_SPF_eWAT,D5-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D5FA16_SPF_Content_colon,D5-FA16  amount in the colon luminal content,micromole,,0
+Metabolite,D5FA16_SPF_Content_cecum,D5-FA16  amount in the cecum luminal content,micromole,,0
+Metabolite,D31FA16_SPF_si,D31-FA16  available for absorption from SI to serum; initial amount calculated as dose D * bioavailability F,micromole,,10000
+Metabolite,D31FA16_SPF_Duodenum,D31-FA16  amount in the duodenum tissue,micromole,,0
+Metabolite,D31FA16_SPF_Jejunum,D31-FA16  amount in the jejunum tissue,micromole,,0
+Metabolite,D31FA16_SPF_Ileum,D31-FA16  amount in the ileum tissue,micromole,,0
+Metabolite,D31FA16_SPF_Plasma,D31-FA16  amount in the serum,micromole,,0
+Metabolite,D31FA16_SPF_Liver,D31-FA16  amount in the liver,micromole,,0
+Metabolite,D31FA16_SPF_Content_duodenum,D31-FA16  amount in the duodenum luminal content,micromole,,0
+Metabolite,D31FA16_SPF_Content_jejunum,D31-FA16  amount in the jejunum luminal content,micromole,,0
+Metabolite,D31FA16_SPF_Content_ileum,D31-FA16  amount in the ileum luminal content,micromole,,0
+Metabolite,D31FA16_SPF_iWAT,D31-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D31FA16_SPF_eWAT,D31-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D31FA16_SPF_Content_colon,D31-FA16  amount in the colon luminal content,micromole,,0
+Metabolite,D31FA16_SPF_Content_cecum,D31-FA16  amount in the cecum luminal content,micromole,,0
+Metabolite,D5FA16_GF_si,D5-FA16  available for absorption from SI to serum; initial amount calculated as dose D * bioavailability F,micromole,,10000
+Metabolite,D5FA16_GF_Duodenum,D5-FA16  amount in the duodenum tissue,micromole,,0
+Metabolite,D5FA16_GF_Jejunum,D5-FA16  amount in the jejunum tissue,micromole,,0
+Metabolite,D5FA16_GF_Ileum,D5-FA16  amount in the ileum tissue,micromole,,0
+Metabolite,D5FA16_GF_Plasma,D5-FA16  amount in the serum,micromole,,0
+Metabolite,D5FA16_GF_Liver,D5-FA16  amount in the liver,micromole,,0
+Metabolite,D5FA16_GF_Content_duodenum,D5-FA16  amount in the duodenum luminal content,micromole,,0
+Metabolite,D5FA16_GF_Content_jejunum,D5-FA16  amount in the jejunum luminal content,micromole,,0
+Metabolite,D5FA16_GF_Content_ileum,D5-FA16  amount in the ileal luminal content,micromole,,0
+Metabolite,D5FA16_GF_iWAT,D5-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D5FA16_GF_eWAT,D5-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D5FA16_GF_Content_colon,D5-FA16  amount in the colon luminal content,micromole,,0
+Metabolite,D5FA16_GF_Content_cecum,D5-FA16  amount in the cecum luminal content,micromole,,0
+Metabolite,D31FA16_GF_si,D31-FA16  available for absorption from SI to serum; initial amount calculated as dose D * bioavailability F,micromole,,10000
+Metabolite,D31FA16_GF_Duodenum,D31-FA16  amount in the duodenum tissue,micromole,,0
+Metabolite,D31FA16_GF_Jejunum,D31-FA16  amount in the jejunum tissue,micromole,,0
+Metabolite,D31FA16_GF_Ileum,D31-FA16  amount in the ileum tissue,micromole,,0
+Metabolite,D31FA16_GF_Plasma,D31-FA16  amount in the serum,micromole,,0
+Metabolite,D31FA16_GF_Liver,D31-FA16  amount in the liver,micromole,,0
+Metabolite,D31FA16_GF_Content_duodenum,D31-FA16  amount in the duodenum luminal content,micromole,,0
+Metabolite,D31FA16_GF_Content_jejunum,D31-FA16  amount in the jejunum luminal content,micromole,,0
+Metabolite,D31FA16_GF_Content_ileum,D31-FA16  amount in the ileum luminal content,micromole,,0
+Metabolite,D31FA16_GF_iWAT,D31-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D31FA16_GF_eWAT,D31-FA16  amount in the white adipose tissue,micromole,,0
+Metabolite,D31FA16_GF_Content_colon,D31-FA16  amount in the colon luminal content,micromole,,0
+Metabolite,D31FA16_GF_Content_cecum,D31-FA16  amount in the cecum luminal content,micromole,,0
+Parameter,k_e_P,coefficient of compound elimination from serum,1/hour,1,0.454
+Parameter,k_p1,coefficient of compound propagation through small intestine,1/hour,1,0
+Parameter,k_p2,coefficient of compound propagation from small intestine to large intestine,1/hour,1,0
+Parameter,k_ent,coefficient of compound absorption in small intestine,1/hour,1,0
+Parameter,k_stor,coefficient of compound storage from serum to white adipose tissue,1/hour,1,0
+Parameter,k_sliv,coefficient of compound propagation from serum to liver,1/hour,1,0
+Equation,D5FA16_GF_Plasma -> null,k_e_P * D5FA16_GF_Plasma,,,
+Equation,D5FA16_GF_si -> D5FA16_GF_Content_duodenum,k_p1 * D5FA16_GF_si,,,
+Equation,D5FA16_GF_Content_duodenum -> D5FA16_GF_Content_jejunum,k_p1 * D5FA16_GF_Content_duodenum,,,
+Equation,D5FA16_GF_Content_jejunum -> D5FA16_GF_Content_ileum,k_p1 * D5FA16_GF_Content_jejunum,,,
+Equation,D5FA16_GF_Content_ileum -> D5FA16_GF_Content_cecum,k_p2 * D5FA16_GF_Content_ileum,,,
+Equation,D5FA16_GF_Content_cecum -> D5FA16_GF_Content_colon,k_p2 * D5FA16_GF_Content_cecum,,,
+Equation,D5FA16_GF_Content_duodenum -> D5FA16_GF_Duodenum,k_ent * D5FA16_GF_Content_duodenum,,,
+Equation,D5FA16_GF_Duodenum -> D5FA16_GF_Plasma,k_ent * D5FA16_GF_Duodenum,,,
+Equation,D5FA16_GF_Content_jejunum -> D5FA16_GF_Jejunum,k_ent * D5FA16_GF_Content_jejunum,,,
+Equation,D5FA16_GF_Jejunum -> D5FA16_GF_Plasma,k_ent * D5FA16_GF_Jejunum,,,
+Equation,D5FA16_GF_Content_ileum -> D5FA16_GF_Ileum,k_ent * D5FA16_GF_Content_ileum,,,
+Equation,D5FA16_GF_Ileum -> D5FA16_GF_Plasma,k_ent * D5FA16_GF_Ileum,,,
+Equation,D5FA16_GF_Plasma -> D5FA16_GF_iWAT,k_stor * D5FA16_GF_Plasma,,,
+Equation,D5FA16_GF_Plasma -> D5FA16_GF_eWAT,k_stor * D5FA16_GF_Plasma,,,
+Equation,D5FA16_GF_Plasma -> D5FA16_GF_Liver,k_sliv * D5FA16_GF_Plasma,,,
+Equation,D31FA16_GF_Plasma -> null,k_e_P * D31FA16_GF_Plasma,,,
+Equation,D31FA16_GF_si -> D31FA16_GF_Content_duodenum,k_p1 * D31FA16_GF_si,,,
+Equation,D31FA16_GF_Content_duodenum -> D31FA16_GF_Content_jejunum,k_p1 * D31FA16_GF_Content_duodenum,,,
+Equation,D31FA16_GF_Content_jejunum -> D31FA16_GF_Content_ileum,k_p1 * D31FA16_GF_Content_jejunum,,,
+Equation,D31FA16_GF_Content_ileum -> D31FA16_GF_Content_cecum,k_p2 * D31FA16_GF_Content_ileum,,,
+Equation,D31FA16_GF_Content_cecum -> D31FA16_GF_Content_colon,k_p2 * D31FA16_GF_Content_cecum,,,
+Equation,D31FA16_GF_Content_duodenum -> D31FA16_GF_Duodenum,k_ent * D31FA16_GF_Content_duodenum,,,
+Equation,D31FA16_GF_Duodenum -> D31FA16_GF_Plasma,k_ent * D31FA16_GF_Duodenum,,,
+Equation,D31FA16_GF_Content_jejunum -> D31FA16_GF_Jejunum,k_ent * D31FA16_GF_Content_jejunum,,,
+Equation,D31FA16_GF_Jejunum -> D31FA16_GF_Plasma,k_ent * D31FA16_GF_Jejunum,,,
+Equation,D31FA16_GF_Content_ileum -> D31FA16_GF_Ileum,k_ent * D31FA16_GF_Content_ileum,,,
+Equation,D31FA16_GF_Ileum -> D31FA16_GF_Plasma,k_ent * D31FA16_GF_Ileum,,,
+Equation,D31FA16_GF_Plasma -> D31FA16_GF_eWAT,k_stor * D31FA16_GF_Plasma,,,
+Equation,D31FA16_GF_Plasma -> D31FA16_GF_Liver,k_sliv * D31FA16_GF_Plasma,,,
+Equation,D31FA16_GF_Plasma -> D31FA16_GF_iWAT,k_stor * D31FA16_GF_Plasma,,,
+Equation,D5FA16_OMM_Plasma -> null,k_e_P * D5FA16_OMM_Plasma,,,
+Equation,D5FA16_OMM_si -> D5FA16_OMM_Content_duodenum,k_p1 * D5FA16_OMM_si,,,
+Equation,D5FA16_OMM_Content_duodenum -> D5FA16_OMM_Content_jejunum,k_p1 * D5FA16_OMM_Content_duodenum,,,
+Equation,D5FA16_OMM_Content_jejunum -> D5FA16_OMM_Content_ileum,k_p1 * D5FA16_OMM_Content_jejunum,,,
+Equation,D5FA16_OMM_Content_ileum -> D5FA16_OMM_Content_cecum,k_p2 * D5FA16_OMM_Content_ileum,,,
+Equation,D5FA16_OMM_Content_cecum -> D5FA16_OMM_Content_colon,k_p2 * D5FA16_OMM_Content_cecum,,,
+Equation,D5FA16_OMM_Content_duodenum -> D5FA16_OMM_Duodenum,k_ent * D5FA16_OMM_Content_duodenum,,,
+Equation,D5FA16_OMM_Duodenum -> D5FA16_OMM_Plasma,k_ent * D5FA16_OMM_Duodenum,,,
+Equation,D5FA16_OMM_Content_jejunum -> D5FA16_OMM_Jejunum,k_ent * D5FA16_OMM_Content_jejunum,,,
+Equation,D5FA16_OMM_Jejunum -> D5FA16_OMM_Plasma,k_ent * D5FA16_OMM_Jejunum,,,
+Equation,D5FA16_OMM_Content_ileum -> D5FA16_OMM_Ileum,k_ent * D5FA16_OMM_Content_ileum,,,
+Equation,D5FA16_OMM_Ileum -> D5FA16_OMM_Plasma,k_ent * D5FA16_OMM_Ileum,,,
+Equation,D5FA16_OMM_Plasma -> D5FA16_OMM_iWAT,k_stor * D5FA16_OMM_Plasma,,,
+Equation,D5FA16_OMM_Plasma -> D5FA16_OMM_eWAT,k_stor * D5FA16_OMM_Plasma,,,
+Equation,D5FA16_OMM_Plasma -> D5FA16_OMM_Liver,k_sliv * D5FA16_OMM_Plasma,,,
+Equation,D31FA16_OMM_Plasma -> null,k_e_P * D31FA16_OMM_Plasma,,,
+Equation,D31FA16_OMM_si -> D31FA16_OMM_Content_duodenum,k_p1 * D31FA16_OMM_si,,,
+Equation,D31FA16_OMM_Content_duodenum -> D31FA16_OMM_Content_jejunum,k_p1 * D31FA16_OMM_Content_duodenum,,,
+Equation,D31FA16_OMM_Content_jejunum -> D31FA16_OMM_Content_ileum,k_p1 * D31FA16_OMM_Content_jejunum,,,
+Equation,D31FA16_OMM_Content_ileum -> D31FA16_OMM_Content_cecum,k_p2 * D31FA16_OMM_Content_ileum,,,
+Equation,D31FA16_OMM_Content_cecum -> D31FA16_OMM_Content_colon,k_p2 * D31FA16_OMM_Content_cecum,,,
+Equation,D31FA16_OMM_Content_duodenum -> D31FA16_OMM_Duodenum,k_ent * D31FA16_OMM_Content_duodenum,,,
+Equation,D31FA16_OMM_Duodenum -> D31FA16_OMM_Plasma,k_ent * D31FA16_OMM_Duodenum,,,
+Equation,D31FA16_OMM_Content_jejunum -> D31FA16_OMM_Jejunum,k_ent * D31FA16_OMM_Content_jejunum,,,
+Equation,D31FA16_OMM_Jejunum -> D31FA16_OMM_Plasma,k_ent * D31FA16_OMM_Jejunum,,,
+Equation,D31FA16_OMM_Content_ileum -> D31FA16_OMM_Ileum,k_ent * D31FA16_OMM_Content_ileum,,,
+Equation,D31FA16_OMM_Ileum -> D31FA16_OMM_Plasma,k_ent * D31FA16_OMM_Ileum,,,
+Equation,D31FA16_OMM_Plasma -> D31FA16_OMM_eWAT,k_stor * D31FA16_OMM_Plasma,,,
+Equation,D31FA16_OMM_Plasma -> D31FA16_OMM_Liver,k_sliv * D31FA16_OMM_Plasma,,,
+Equation,D31FA16_OMM_Plasma -> D31FA16_OMM_iWAT,k_stor * D31FA16_OMM_Plasma,,,
+Equation,D5FA16_SPF_Plasma -> null,k_e_P * D5FA16_SPF_Plasma,,,
+Equation,D5FA16_SPF_si -> D5FA16_SPF_Content_duodenum,k_p1 * D5FA16_SPF_si,,,
+Equation,D5FA16_SPF_Content_duodenum -> D5FA16_SPF_Content_jejunum,k_p1 * D5FA16_SPF_Content_duodenum,,,
+Equation,D5FA16_SPF_Content_jejunum -> D5FA16_SPF_Content_ileum,k_p1 * D5FA16_SPF_Content_jejunum,,,
+Equation,D5FA16_SPF_Content_ileum -> D5FA16_SPF_Content_cecum,k_p2 * D5FA16_SPF_Content_ileum,,,
+Equation,D5FA16_SPF_Content_cecum -> D5FA16_SPF_Content_colon,k_p2 * D5FA16_SPF_Content_cecum,,,
+Equation,D5FA16_SPF_Content_duodenum -> D5FA16_SPF_Duodenum,k_ent * D5FA16_SPF_Content_duodenum,,,
+Equation,D5FA16_SPF_Duodenum -> D5FA16_SPF_Plasma,k_ent * D5FA16_SPF_Duodenum,,,
+Equation,D5FA16_SPF_Content_jejunum -> D5FA16_SPF_Jejunum,k_ent * D5FA16_SPF_Content_jejunum,,,
+Equation,D5FA16_SPF_Jejunum -> D5FA16_SPF_Plasma,k_ent * D5FA16_SPF_Jejunum,,,
+Equation,D5FA16_SPF_Content_ileum -> D5FA16_SPF_Ileum,k_ent * D5FA16_SPF_Content_ileum,,,
+Equation,D5FA16_SPF_Ileum -> D5FA16_SPF_Plasma,k_ent * D5FA16_SPF_Ileum,,,
+Equation,D5FA16_SPF_Plasma -> D5FA16_SPF_iWAT,k_stor * D5FA16_SPF_Plasma,,,
+Equation,D5FA16_SPF_Plasma -> D5FA16_SPF_eWAT,k_stor * D5FA16_SPF_Plasma,,,
+Equation,D5FA16_SPF_Plasma -> D5FA16_SPF_Liver,k_sliv * D5FA16_SPF_Plasma,,,
+Equation,D31FA16_SPF_Plasma -> null,k_e_P * D31FA16_SPF_Plasma,,,
+Equation,D31FA16_SPF_si -> D31FA16_SPF_Content_duodenum,k_p1 * D31FA16_SPF_si,,,
+Equation,D31FA16_SPF_Content_duodenum -> D31FA16_SPF_Content_jejunum,k_p1 * D31FA16_SPF_Content_duodenum,,,
+Equation,D31FA16_SPF_Content_jejunum -> D31FA16_SPF_Content_ileum,k_p1 * D31FA16_SPF_Content_jejunum,,,
+Equation,D31FA16_SPF_Content_ileum -> D31FA16_SPF_Content_cecum,k_p2 * D31FA16_SPF_Content_ileum,,,
+Equation,D31FA16_SPF_Content_cecum -> D31FA16_SPF_Content_colon,k_p2 * D31FA16_SPF_Content_cecum,,,
+Equation,D31FA16_SPF_Content_duodenum -> D31FA16_SPF_Duodenum,k_ent * D31FA16_SPF_Content_duodenum,,,
+Equation,D31FA16_SPF_Duodenum -> D31FA16_SPF_Plasma,k_ent * D31FA16_SPF_Duodenum,,,
+Equation,D31FA16_SPF_Content_jejunum -> D31FA16_SPF_Jejunum,k_ent * D31FA16_SPF_Content_jejunum,,,
+Equation,D31FA16_SPF_Jejunum -> D31FA16_SPF_Plasma,k_ent * D31FA16_SPF_Jejunum,,,
+Equation,D31FA16_SPF_Content_ileum -> D31FA16_SPF_Ileum,k_ent * D31FA16_SPF_Content_ileum,,,
+Equation,D31FA16_SPF_Ileum -> D31FA16_SPF_Plasma,k_ent * D31FA16_SPF_Ileum,,,
+Equation,D31FA16_SPF_Plasma -> D31FA16_SPF_eWAT,k_stor * D31FA16_SPF_Plasma,,,
+Equation,D31FA16_SPF_Plasma -> D31FA16_SPF_Liver,k_sliv * D31FA16_SPF_Plasma,,,
+Equation,D31FA16_SPF_Plasma -> D31FA16_SPF_iWAT,k_stor * D31FA16_SPF_Plasma,,,
+Equation,D5FA16_GF_Content_colon -> null,k_p2 * D5FA16_GF_Content_colon,,,
+Equation,D31FA16_GF_Content_colon -> null,k_p2 * D31FA16_GF_Content_colon,,,
+Equation,D5FA16_OMM_Content_colon -> null,k_p2 * D5FA16_OMM_Content_colon,,,
+Equation,D31FA16_OMM_Content_colon -> null,k_p2 * D31FA16_OMM_Content_colon,,,
+Equation,D5FA16_SPF_Content_colon -> null,k_p2 * D5FA16_SPF_Content_colon,,,
+Equation,D31FA16_SPF_Content_colon -> null,k_p2 * D31FA16_SPF_Content_colon,,,
