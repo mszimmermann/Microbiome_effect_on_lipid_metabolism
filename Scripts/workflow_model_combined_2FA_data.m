@@ -115,13 +115,35 @@ weightfilenames = 'mouse_organ_weights_estimates.csv';
          
     simulate_pbpk_model_combined_separate_CI(t_mean_amount, resultsHost, ...
         metNamesMap, useForFitting)
+    try
+        suptitle('Model with no group-specific parameters') 
+    catch
+        try
+            sgtitle('Model with no group-specific parameters') 
+        catch
+        end
+    end
 
-    suptitle('Model with no group-specific parameters') 
     orient landscape
     
     print(gcf, '-painters', '-dpdf', '-r600', '-bestfit', ...
             [figFolder 'FigSup_general_model_fits.pdf']);
 
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+    outfilenameTable = [outputFolder 'table_basic_model_estimates.csv'];
+    % set the model parameters to the estimates for tha basic model
+    for i=1:length(resultsHost.ParameterEstimates.Name)
+        modelGutUniversal.Parameters(ismember(parameterNames, resultsHost.ParameterEstimates.Name(i))).Value =...
+             resultsHost.ParameterEstimates.Estimate(i);
+    end
+    % save model fitting and predictions to a file  
+    prepare_data_for_tables_public(t_mean_amount, ones(1,78),...dataVolumes(1,:), ...
+        modelGutUniversal, resultsHost, ...
+        metNamesMap, useForFitting, outfilenameTable, initParValue)
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+   
  
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     
@@ -287,16 +309,46 @@ weightfilenames = 'mouse_organ_weights_estimates.csv';
     % plot best model
     best_idx = find(results_mse==min(results_mse))-1;
     results_plot = results_to_vary{best_idx};
-            
+    model_plot = models_to_vary{best_idx};
+    parameterNames = cell(size(model_plot.Parameters));
+    parameterInitialValues = zeros(size(modelGutVariedPar.Parameters));
+    for i=1:length(model_plot.Parameters)
+        parameterNames{i} = model_plot.Parameters(i).Name;
+        parameterInitialValues(i) = modelGutVariedPar.Parameters(i).Value;
+    end
+     
     simulate_pbpk_model_combined_separate_CI(t_mean_amount, results_plot, ...
         metNamesMap, useForFitting)
-    suptitle(sprintf('Model with %s specific parameter', parameters_to_vary{best_idx})) 
+    try
+        suptitle(sprintf('Model with %s specific parameter', parameters_to_vary{best_idx})) 
+    catch
+        try
+            sgtitle(sprintf('Model with %s specific parameter', parameters_to_vary{best_idx})) 
+        catch
+        end
+    end
+
     orient landscape
     
     print(gcf, '-painters', '-dpdf', '-r600', '-bestfit', ...
             [figFolder 'Fig2C_model_fits.pdf']);
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+    outfilenameTable = [outputFolder 'table_best_model_estimates.csv'];
+    % set the model parameters to the estimates for tha basic model
+    for i=1:length(results_plot.ParameterEstimates.Name)
+        model_plot.Parameters(ismember(parameterNames, results_plot.ParameterEstimates.Name(i))).Value =...
+             results_plot.ParameterEstimates.Estimate(i);
+    end
+    % save model fitting and predictions to a file  
+    prepare_data_for_tables_public(t_mean_amount, ones(1,78),...dataVolumes(1,:), ...
+        model_plot, results_plot, ...
+        metNamesMap, useForFitting, outfilenameTable, initParValue)
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % plot best parameters
     par_est = results_plot.ParameterEstimates.Estimate;
