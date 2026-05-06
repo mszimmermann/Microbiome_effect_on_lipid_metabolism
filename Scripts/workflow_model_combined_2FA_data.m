@@ -199,7 +199,7 @@ weightfilenames = 'mouse_organ_weights_estimates.csv';
         responseMap = strcat(metNamesMap(useForFitting,1), ' = ',...
                          metNamesMap(useForFitting,2));
 
-            % optimization step
+        % optimization step
         rng('default')
         globalMethod = 'ga';
         options = optimoptions(globalMethod);
